@@ -25,6 +25,10 @@
     'unsupported-browser' : {
       template : 'templates/dialogs/unsupported-browser.html',
       controller : ns.UnsupportedBrowserController
+    },
+    'layer-opacity' : {
+      template : 'templates/dialogs/layer-opacity.html',
+      controller : ns.LayerOpacityController
     }
   };
 

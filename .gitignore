@@ -15,6 +15,9 @@ cache
 # netbeans project folder
 nbproject
 
+# webstorm and intellij
+.idea
+
 # git stackdumps
 *.stackdump
 

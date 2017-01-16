@@ -118,7 +118,11 @@
     } else if (el.classList.contains('layer-item-opacity')) {
       index = pskl.utils.Dom.getData(el, 'layerIndex');
       var layer = this.piskelController.getLayerAt(parseInt(index, 10));
-      var opacity = window.prompt('Set layer opacity (value between 0 and 1)', layer.getOpacity());
+      var opacity = 1;//window.prompt('Set layer opacity (value between 0 and 1)', layer.getOpacity());
+      $.publish(Events.DIALOG_DISPLAY, {
+          dialogId : 'layer-opacity',
+          initArgs: layer.getOpacity()
+      });
       this.piskelController.setLayerOpacityAt(index, opacity);
     }
   };

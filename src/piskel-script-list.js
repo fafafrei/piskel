@@ -142,6 +142,7 @@
   "js/controller/dialogs/CheatsheetController.js",
   "js/controller/dialogs/PerformanceInfoController.js",
   "js/controller/dialogs/UnsupportedBrowserController.js",
+  "js/controller/dialogs/LayerOpacityController.js",
 
   // Dialogs controller
   "js/controller/dialogs/DialogsController.js",
